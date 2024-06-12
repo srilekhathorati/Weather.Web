@@ -1,0 +1,85 @@
+*{
+    margin: none;
+    padding: none;
+    
+}
+.board{
+    width: 100%;
+    max-width:470px;
+    margin: 100px auto 0;
+    padding: 40px 30px;
+    border-radius: 20px;
+    background-image: url(images/sky.jpg);
+    background-position: center;
+    background-size: cover;
+   text-align: center;
+}
+.find{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.find input{
+    outline:0;
+    color: #555;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #ebfffc;
+    border: 0;
+    flex:1;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+.img{
+    
+    
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 8px;
+   
+   
+    
+}
+.btn{
+    background-color: #ebfffc;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    transition: 1s ease-in;
+
+}
+.btn:hover{
+    border: 1px solid black;
+}
+h1,h2,h3,h4,h5,p{
+    color: black;
+}
+
+.sub{
+    width: 40%;
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 32%;
+    justify-content: space-between;
+    
+    
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidityfont{
+    font-size: 16px;
+}
+.col1 img{
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.weather{
+    display: none;
+}
